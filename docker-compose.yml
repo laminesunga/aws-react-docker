@@ -1,10 +1,16 @@
-version: '3.8'
-
+version: "3.8"
 services:
-    app:
-      build: ./login-app
-      ports: 
-      - 3000:80
+    nginx-react:
+      image: reactapp:latest
+      container_name: myreactapp
+      build:
+        context: .
+        dockerfile: Dockerfile
+      ports:
+        - 80:80
+      environment:
+         NODE_ENV: production
+
 
 
     
