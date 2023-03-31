@@ -60,12 +60,16 @@ const Account = props => {
     }
   }
 
+      
+  
+
   return (
     <AccountContext.Provider value={{
       authenticate,
       getSession,
       logout,
       curentUser
+      
     }}>
       {props.children}
     </AccountContext.Provider>
