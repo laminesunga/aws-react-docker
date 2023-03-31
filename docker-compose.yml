@@ -9,7 +9,13 @@ services:
       ports:
         - 80:80
       environment:
-         NODE_ENV: production
+        NODE_ENV: production
+
+        # ENV REACT_APP_USERPOOLID: ${REACT_APP_USERPOOLID}
+        # ENV REACT_APP_CLIENTID: ${REACT_APP_CLIENTID}
+        # ENV REACT_APP_APIURL: ${REACT_APP_APIURL}
+
+
 
 
 
