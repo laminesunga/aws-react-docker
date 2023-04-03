@@ -16,14 +16,23 @@ export default function About() {
     <div >
       
         <Container>
-        <div>
+        {/* <div>
 
           
           <a >
-            <img src={logo} width="300" height="200" alt=""/>
-             Lamine Geordan Sunga Kouangue
+            <img src={logo} width="150" height="100" alt=""/>
+            Lamine Geordan Sunga Kouangue
           </a>
-          <h3> I am a graduated student from University of California Merced.</h3>
+          
+        </div> */}
+        <div>
+          <h3>Log in or create a user to visit features.</h3>
+          <ul>
+          <li>User name: </li>
+          <li>Password:</li>
+          
+          </ul>
+
         </div>
         </Container>
 

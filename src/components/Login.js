@@ -61,7 +61,7 @@ export default function Login () {
           </div>
           <p className="forgot-password text-right mt-2">
           <label className="label">
-                  <Link className="label-text-alt link link-hover" to={'/register'}> sign up</Link>
+           New User?<Link className="label-text-alt link link-hover" to={'/register'}> sign up</Link>
           </label>
           </p>
         </div>
