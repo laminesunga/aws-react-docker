@@ -23,6 +23,7 @@ export default function About() {
             <img src={logo} width="300" height="200" alt=""/>
              Lamine Geordan Sunga Kouangue
           </a>
+          <h3> I am a graduated student from University of California Merced.</h3>
         </div>
         </Container>
 
