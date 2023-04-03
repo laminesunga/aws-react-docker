@@ -14,7 +14,7 @@ export default function Status() {
   const navigate = useNavigate();
   const user = curentUser()
   console.log("current user from status",user)
-  const apiUrl = 'http://lam-env.eba-maqqqnxm.us-west-1.elasticbeanstalk.com'
+  const apiUrl = 'https://www.api.laminesunga.com'
   
   const [data, setData] = useState(null);
   
