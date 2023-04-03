@@ -14,7 +14,7 @@ export default function Status() {
   const navigate = useNavigate();
   const user = curentUser()
   console.log("current user from status",user)
-  const apiUrl = 'https://www.api.laminesunga.com'
+  const apiUrl = process.env.REACT_APP_APIURL
   
   const [data, setData] = useState(null);
   
